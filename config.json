@@ -1,35 +1,46 @@
 {
   "server": {
-    "http_server_name": "example.com",
+    "http_server_name": "intflow.serveftp.com",
     "http_port": ":8083",
     "https_port": ":443"
   },
   "streams": {
-    "demo1": {
-      "url": "rtsp://171.25.232.20/d7b92541b4914c8e98104cba907864f8",
-      "fps_mode": "probe",
-      "fps_probe_time": 2,
-      "hls_segment_min_duration": 2,
-      "hls_segment_max_segments": 6
+    "Deepstream_mooodoong2": {
+      "on_demand": false,
+      "disable_audio": true,
+      "url": "rtsp://moodoong.zapto.org:20055/ds-test"
     },
-    "demo2": {
-      "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
-      "fps_mode": "fixed",
-      "fps": 24,
-      "hls_segment_min_duration": 2,
-      "hls_segment_max_segments": 6
+    "cam1_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20155/Streaming/Channels/101/"
     },
-    "demo3": {
-      "url": "rtsp://171.25.232.18/jibxjyTXkaG2DYRXGrBIZ3rGeFT0Si",
-      "fps_mode": "probe",
-      "hls_segment_min_duration": 2,
-      "hls_segment_max_segments": 6
+    "cam2_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20255/Streaming/Channels/101/"
     },
-    "demo4": {
-      "url": "rtsp://171.25.232.12/20_3Onl3Bf3Rgx12pph6FvMTygBD0ucQ3",
-      "fps_mode": "probe",
-      "hls_segment_min_duration": 2,
-      "hls_segment_max_segments": 6
+    "cam3_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20355/Streaming/Channels/101/"
+    },
+    "cam4_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20455/Streaming/Channels/101/"
+    },
+    "cam5_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20555/Streaming/Channels/101/"
+    },
+    "cam6_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20655/Streaming/Channels/101/"
+    },
+    "cam7_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20755/Streaming/Channels/101/"
+    },
+    "cam8_gwangjufarm": {
+      "on_demand": false,
+      "url": "rtsp://admin:intflow3121@gwangjufarm.iptime.org:20855/Streaming/Channels/101/"
     }
   }
 }
